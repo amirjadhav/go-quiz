@@ -1,0 +1,24 @@
+[
+    {
+        "questionId": 1,
+        "question": "What is the role of a compiler in programming?",
+        "options": {
+            "A": "To test the performance of a software application.",
+            "B": "To convert high-level programming language code into machine code.",
+            "C": "To design user interfaces.",
+            "D": "To manage network operations."
+        },
+        "answer": "B"
+    },
+    {
+        "questionId": 2,
+        "question": "What is the purpose of a firewall in computer networks?",
+        "options": {
+            "A": "To prevent unauthorized access to a network.",
+            "B": "To optimize database queries.",
+            "C": "To encrypt sensitive data.",
+            "D": "To develop mobile applications."
+        },
+        "answer": "A"
+    }
+]
