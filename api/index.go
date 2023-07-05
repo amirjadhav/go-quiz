@@ -1,7 +1,7 @@
 package main
 
 import (
-	"amirjadhav/go-quiz/controller"
+	"amirjadhav/go-quiz/api/controller"
 	"log"
 
 	"github.com/gofiber/fiber/v2"

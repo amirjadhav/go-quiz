@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"amirjadhav/go-quiz/model"
-	"amirjadhav/go-quiz/service"
+	"amirjadhav/go-quiz/api/model"
+	"amirjadhav/go-quiz/api/service"
 	"log"
 
 	"github.com/gofiber/fiber/v2"

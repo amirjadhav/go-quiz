@@ -1,8 +1,8 @@
 package service
 
 import (
-	"amirjadhav/go-quiz/model"
-	"amirjadhav/go-quiz/util"
+	"amirjadhav/go-quiz/api/model"
+	"amirjadhav/go-quiz/api/util"
 )
 
 var questions = util.GetAllQuestionsForCheck()
