@@ -1,7 +1,7 @@
 package util
 
 import (
-	"amirjadhav/go-quiz/api/model"
+	"amirjadhav/go-quiz/model"
 	_ "embed"
 	"encoding/json"
 	"log"

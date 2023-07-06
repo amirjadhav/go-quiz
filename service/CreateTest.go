@@ -1,8 +1,8 @@
 package service
 
 import (
-	"amirjadhav/go-quiz/api/model"
-	"amirjadhav/go-quiz/api/util"
+	"amirjadhav/go-quiz/model"
+	"amirjadhav/go-quiz/util"
 	"math/rand"
 )
 
