@@ -3,12 +3,18 @@ package main
 import (
 	"amirjadhav/go-quiz/controller"
 	"log"
+	"os"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
 func main() {
+
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "3000" // Set a default port if running locally
+	}
 
 	app := fiber.New()
 	app.Use(cors.New(cors.Config{
@@ -24,5 +30,5 @@ func main() {
 
 	app.Post("/api/submitquiz", controller.Submitquiz)
 
-	log.Fatal(app.Listen(":3000"))
+	log.Fatal(app.Listen(":" + port))
 }
